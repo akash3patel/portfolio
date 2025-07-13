@@ -46,29 +46,10 @@ Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
 
 ## 🚀 Projects
 
-### 🧠 Reinforcement Learning & Decision Making
+## 🚀 Projects
 
-- **Enhancing Neural Topic Models with RL**  
-  PyTorch, SBERT, VAE, REINFORCE — 20% ↑ coherence, 0.975 topic diversity over ProdLDA/ETM  
-
-- **RL-Based Portfolio Optimization** *(Coming Soon)*  
-  PyTorch, Optuna — RL agent to rebalance assets using Sharpe ratio
-
-### 📈 Time Series & Forecasting
-
-- **Nowcasting Labour Market Indicators – StatCan**  
-  SARIMAX, Chronos — Reduced indicator lag 50% using GDP, stock, immigration data
-
-- **Probabilistic Load Forecasting** *(Coming Soon)*  
-  Lightweight Transformer (Darts) with quantile regression
-
-### 🔍 NLP & Classification
-
-- **Advanced Fake Statement Detection**  
-  HuggingFace, W&B — Fine-tuned BERT, 96.9% (2-class) accuracy on TruthSeeker
-
-- **Few-Shot Image Classification with CosFace-CLIP**  
-  PyTorch, Hydra — Integrated CosFace into Proto-CLIP for 4/8-shot learning
+I’ve worked on RL, Time-Series, NLP & Vision projects.  
+[Explore all projects →](/projects/){: .btn }
 
 ---
 
@@ -88,5 +69,9 @@ Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
 
 - GitHub: [@akash3patel](https://github.com/akash3patel)  
 - Email: *available on request*
+
+---
+
+[← Back to Home](/){: .btn }
 
 ---
