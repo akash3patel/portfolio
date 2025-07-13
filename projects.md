@@ -18,6 +18,17 @@ projects:
     image: "/assets/images/rl-topic.png"
     caption: "Topic distribution heatmap"
 
+  - title: "RL-Based Portfolio Optimization"
+    category: "Reinforcement Learning"
+    technologies:
+      - PyTorch
+      - Optuna
+    description: >
+      Designed an RL agent to rebalance a financial portfolio optimizing for Sharpe ratio,
+      with backtests showing a 15% annual return improvement.
+    image: "/assets/images/portfolio-rl.png"
+    caption: "Portfolio allocation over time"
+
   - title: "Nowcasting Canadian Labour Market Indicators"
     category: "Time Series"
     technologies:
@@ -27,7 +38,7 @@ projects:
       - REST APIs
     description: >
       Built multi-factor SARIMAX models integrating GDP, stock indices, and immigration data.
-      Reduced official reporting lag by 50% (from 42 to 21 days).
+      Reduced reporting lag by 50% (from 42 to 21 days).
     image: "/assets/images/labour-forecast.png"
     caption: "Forecast vs. actual indicators"
 
@@ -71,14 +82,20 @@ projects:
 
 # 🚀 Projects
 
-Welcome to my detailed projects portfolio. Browse the sections below for in-depth descriptions, images, and links.
+Welcome—browse by category below:
 
-{% for p in page.projects %}
+{% comment %}
+  Compute unique categories
+{% endcomment %}
+{% assign cats = page.projects | map: "category" | uniq %}
 
-## {{ p.title }}
-**Category:** {{ p.category }}  
+{% for cat in cats %}
+## {{ cat }}
+
+{% assign items = page.projects | where: "category", cat %}
+{% for p in items %}
+### {{ p.title }}
 **Tech:** {{ p.technologies | join: ", " }}  
-
 {{ p.description }}
 
 {% if p.image %}
@@ -89,7 +106,7 @@ Welcome to my detailed projects portfolio. Browse the sections below for in-dept
 {% endif %}
 
 ---
-
+{% endfor %}
 {% endfor %}
 
 [← Back to Home]({{ "/" | relative_url }}){: .btn }
