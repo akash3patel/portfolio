@@ -1,8 +1,7 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Badge } from "@/components/ui/badge";
-import { motion } from "framer-motion";
+import { Card, CardContent } from "./components/ui/card.jsx";
+import { Button } from "./components/ui/button.jsx";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs.jsx";
+import { Badge } from "./components/ui/badge.jsx";
 
 const projects = {
   rl: [
