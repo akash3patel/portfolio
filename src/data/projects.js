@@ -1,3 +1,5 @@
+// src/data/projects.js
+
 const projects = [
   {
     title: "Enhancing Neural Topic Models with RL",
@@ -13,6 +15,20 @@ const projects = [
     description:
       "Builds an RL agent that reallocates assets using Sharpe ratio.",
   },
-  // Add more...
+  {
+    title: "Nowcasting Labour Market Indicators",
+    tech: ["SARIMAX", "Chronos", "MySQL"],
+    categories: ["Time Series"],
+    description:
+      "Reduced economic reporting lag by 50% using SARIMAX forecasting with external economic signals.",
+  },
+  {
+    title: "Few-Shot Learning with CosFace-CLIP",
+    tech: ["Hydra", "PyTorch", "CLIP"],
+    categories: ["Vision", "NLP"],
+    description:
+      "Integrated angular margin with Proto-CLIP for robust few-shot performance in multimodal learning.",
+  },
 ];
+
 export default projects;
