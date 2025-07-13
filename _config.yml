@@ -4,6 +4,7 @@ logo:
 show_downloads: false
 theme: jekyll-theme-minimal
 # below your existing plugins/themes
+baseurl: "/portfolio"
 defaults:
   -
     scope:
