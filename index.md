@@ -48,7 +48,7 @@ Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
 ## 🚀 Projects
 
 I’ve worked on RL, Time-Series, NLP & Vision projects.  
-[Explore all projects →](/portfolio/projects/){: .btn }
+[Explore all projects →]({{ "/projects/" | relative_url }}){: .btn }
 
 ---
 
