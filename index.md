@@ -44,7 +44,6 @@ Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
 
 ---
 
-## 🚀 Projects
 
 ## 🚀 Projects
 
