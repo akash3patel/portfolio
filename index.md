@@ -71,6 +71,6 @@ I’ve worked on RL, Time-Series, NLP & Vision projects.
 
 ---
 
-[← Back to Home](/portfolio){: .btn }
+[← Back to Home]({{ "/" | relative_url }}){: .btn }
 
 ---
