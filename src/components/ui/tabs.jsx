@@ -1,10 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export function Tabs({ defaultValue, children, className }) {
   const [activeTab, setActiveTab] = useState(defaultValue);
   return (
     <div className={className}>
-      {React.Children.map(children, child => {
+      {React.Children.map(children, (child) => {
         if (child.type.displayName === "TabsList") {
           return React.cloneElement(child, { activeTab, setActiveTab });
         }
@@ -20,7 +20,7 @@ export function Tabs({ defaultValue, children, className }) {
 export function TabsList({ children, activeTab, setActiveTab, className }) {
   return (
     <div className={className}>
-      {React.Children.map(children, child =>
+      {React.Children.map(children, (child) =>
         React.cloneElement(child, { activeTab, setActiveTab })
       )}
     </div>
