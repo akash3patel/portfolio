@@ -69,3 +69,16 @@ export default function Portfolio() {
                   </Card>
                 </motion.div>
               ))}
+            </div>
+          </TabsContent>
+        ))}
+      </Tabs>
+
+      <div className="mt-8">
+        <Button asChild>
+          <a href="/Akash_Patel_Resume.pdf" target="_blank">Download Resume</a>
+        </Button>
+      </div>
+    </div>
+  );
+}
