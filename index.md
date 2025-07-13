@@ -5,8 +5,6 @@ title: Akash Patel
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
 
-# Akash Patel
-
 **Data Scientist & ML Engineer**  
 Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
 
