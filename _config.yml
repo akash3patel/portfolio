@@ -3,3 +3,11 @@ logo:
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal
+# below your existing plugins/themes
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      head_custom: true
