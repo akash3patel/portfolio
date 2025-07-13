@@ -37,7 +37,7 @@ export default function Portfolio() {
   return (
     <div className="p-6 max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold mb-4">Akash Patel</h1>
-      <p className="mb-6 text-muted-foreground">
+      <p className="mb-6 text-gray-600">
         Data Scientist & ML Engineer | Applied AI | Scalable ML | Fair & Explainable Systems
       </p>
 
@@ -60,7 +60,7 @@ export default function Portfolio() {
                   <Card className="rounded-2xl shadow-md">
                     <CardContent className="p-4">
                       <h2 className="text-xl font-semibold mb-1">{proj.title}</h2>
-                      <p className="text-sm text-muted-foreground mb-2">{proj.tech}</p>
+                      <p className="text-sm text-gray-500 mb-2">{proj.tech}</p>
                       <p className="text-sm mb-2">{proj.desc}</p>
                       {proj.result && (
                         <Badge variant="outline" className="text-xs">{proj.result}</Badge>
@@ -76,7 +76,7 @@ export default function Portfolio() {
 
       <div className="mt-8">
         <Button asChild>
-          <a href="/Akash_Patel_Resume.pdf" target="_blank">Download Resume</a>
+          <a href="/Akash_Patel_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
         </Button>
       </div>
     </div>
