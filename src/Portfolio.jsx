@@ -2,6 +2,7 @@ import { Card, CardContent } from "./components/ui/card.jsx";
 import { Button } from "./components/ui/button.jsx";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs.jsx";
 import { Badge } from "./components/ui/badge.jsx";
+import { motion } from "framer-motion";
 
 const projects = {
   rl: [
