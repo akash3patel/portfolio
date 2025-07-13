@@ -87,9 +87,60 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <div className="p-10 text-center text-xl font-bold text-gray-800">
-      Akash Patel – Tailwind Portfolio is Working!
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-300 text-gray-800 px-6 py-10">
+      <div className="max-w-4xl mx-auto">
+        {/* Hero Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-slate-800">Akash Patel</h1>
+          <p className="text-lg mt-2 text-gray-600">
+            Data Scientist & ML Engineer • Applied AI • Scalable & Fair Systems
+          </p>
+          <div className="mt-4 flex justify-center gap-3">
+            <span className="px-3 py-1 rounded-full bg-rose-100 text-rose-700 text-sm font-medium">RL & Decision Making</span>
+            <span className="px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-sm font-medium">Time Series</span>
+          </div>
+        </div>
+
+        {/* Projects Section */}
+        <div className="space-y-8">
+          <div className="bg-white rounded-2xl shadow p-6 hover:shadow-md transition">
+            <h2 className="text-xl font-semibold text-slate-900 mb-2">
+              Enhancing Neural Topic Models with RL
+            </h2>
+            <p className="text-sm text-gray-600 mb-1">
+              <strong>Tech:</strong> PyTorch, SBERT, VAE, REINFORCE
+            </p>
+            <p className="text-sm text-gray-700">
+              Modeled topic inference as MDP using REINFORCE with neural density-based bonuses. Achieved 20% higher coherence and 0.975 topic diversity over ProdLDA/ETM.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl shadow p-6 hover:shadow-md transition opacity-80">
+            <h2 className="text-xl font-semibold text-slate-900 mb-2">
+              RL-Based Portfolio Optimization (Coming Soon)
+            </h2>
+            <p className="text-sm text-gray-600 mb-1">
+              <strong>Tech:</strong> PyTorch, Optuna
+            </p>
+            <p className="text-sm text-gray-700">
+              Builds an RL agent that reallocates assets using Sharpe ratio.
+            </p>
+          </div>
+        </div>
+
+        {/* Resume Download */}
+        <div className="text-center mt-12">
+          <a
+            href="/resume.pdf"
+            className="text-blue-600 underline hover:text-blue-800 text-sm"
+            download
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
+
 
