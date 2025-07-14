@@ -73,7 +73,7 @@ head_custom: true
 
   <!-- NLP -->
   <div>
-    <a href="#nlp" class="cat-btn">NLP & Classification</a>
+    <a href="#nlp" class="cat-btn">NLP &amp; Classification</a>
     <ul class="cat-list">
       <li><a href="#fake-statement-detection">Fake Statement Detection</a></li>
     </ul>
@@ -81,9 +81,10 @@ head_custom: true
 
   <!-- Vision -->
   <div>
-    <a href="#vision" class="cat-btn">Vision & Multimodal</a>
+    <a href="#vision" class="cat-btn">Vision &amp; Multimodal</a>
     <ul class="cat-list">
       <li><a href="#few-shot-cosface-clip">Few-Shot CosFace-CLIP</a></li>
+      <li><a href="#gauss-proto-clip">Gauss-Proto-CLIP</a></li>
     </ul>
   </div>
 </div>
@@ -96,7 +97,7 @@ head_custom: true
 **Tech:** PyTorch, SBERT, VAE, REINFORCE  
 Modeled topic inference as an MDP using REINFORCE with count-based intrinsic rewards, achieving **20% higher coherence** and **0.975 diversity**.
 
-![Topic distribution heatmap](/assets/images/rl-topic.png)  
+![Topic distribution heatmap]({{ "/assets/images/rl-topic.png" | relative_url }})  
 *Figure: Topic distribution heatmap*
 
 ---
@@ -105,7 +106,7 @@ Modeled topic inference as an MDP using REINFORCE with count-based intrinsic rew
 **Tech:** PyTorch, Optuna  
 Designed an RL agent to rebalance a portfolio optimizing for Sharpe ratio, showing **15% annual return improvement**.
 
-![Portfolio allocation over time](/assets/images/portfolio-rl.png)  
+![Portfolio allocation over time]({{ "/assets/images/portfolio-rl.png" | relative_url }})  
 *Figure: Portfolio allocation*
 
 ---
@@ -116,7 +117,7 @@ Designed an RL agent to rebalance a portfolio optimizing for Sharpe ratio, showi
 **Tech:** SARIMAX, Chronos, MySQL, REST APIs  
 Reduced reporting lag by **50%** using multi-factor forecasting.
 
-![Forecast vs actual indicators](/assets/images/labour-forecast.png)  
+![Forecast vs actual indicators]({{ "/assets/images/labour-forecast.png" | relative_url }})  
 *Figure: Forecast vs. actual*
 
 ---
@@ -133,7 +134,7 @@ Lightweight transformer for interval forecasting of energy load.
 **Tech:** Hugging Face, W&B, Ensemble Learning  
 Fine-tuned BERT variants with a random-forest ensemble to reach **96.9%** (2-way) and **50.5%** (4-way).
 
-![ROC for fake detection](/assets/images/fake-detect.png)  
+![ROC for fake detection]({{ "/assets/images/fake-detect.png" | relative_url }})  
 *Figure: ROC curves*
 
 ---
@@ -144,18 +145,19 @@ Fine-tuned BERT variants with a random-forest ensemble to reach **96.9%** (2-way
 **Tech:** Hydra, PyTorch, CLIP, CosFace  
 Integrated CosFace into Proto-CLIP achieving robust 4-shot/8-shot performance.
 
-![Few-shot accuracy](/assets/images/cosface-clip.png)  
+![Few-shot classification accuracy]({{ "/assets/images/cosface-clip.png" | relative_url }})  
 *Figure: Few-shot classification accuracy*
 
+---
 
 ### Gauss-Proto-CLIP: Enhancing Few-Shot Learning {#gauss-proto-clip}
-[📄 Paper (PDF)](/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf) · [💻 Code](https://github.com/your-username/gauss-proto-clip)
+[📄 Paper (PDF)]({{ "/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf" | relative_url }}) · [💻 Code](https://github.com/your-username/gauss-proto-clip)
 
 **Tech:** PyTorch · CLIP · NumPy · W&B  
 **Data:** EuroSAT · DTD · Flowers · Pets · UCF101  
 
 **🔎 Overview**  
-Few-shot learning remains challenging when classes exhibit high intra-class variance. While Proto-CLIP uses single-point prototypes, our Gauss-Proto-CLIP models each class as a Gaussian (mean + covariance), enabling richer representations and superior fine-grained performance.
+Few-shot learning remains challenging when classes exhibit high intra‐class variance. While Proto‐CLIP uses single‐point prototypes, Gauss‐Proto‐CLIP models each class as a Gaussian (mean + covariance), enabling richer representations and superior fine‐grained performance.
 
 **🚀 Key Contributions**  
 - Gaussian prototypes for image embeddings  
@@ -164,7 +166,7 @@ Few-shot learning remains challenging when classes exhibit high intra-class vari
 - Benchmarked on 5 vision–language datasets  
 
 <figure>
-  <img src="/assets/images/gauss-proto-clip-architecture.png" alt="Architecture" />
+  <img src="{{ '/assets/images/gauss-proto-clip-architecture.png' | relative_url }}" alt="Architecture" />
   <figcaption>Figure: Gaussian vs. vanilla prototypes</figcaption>
 </figure>
 
@@ -176,15 +178,13 @@ Few-shot learning remains challenging when classes exhibit high intra-class vari
 
 **🔧 What I Learned**  
 – Probabilistic prototype modeling  
-– Distance-based metric learning  
+– Distance‐based metric learning  
 – Scalable experiment tracking with W&B  
 
 **👉 Try It Yourself**  
 - [📂 Code & Demo](https://github.com/your-username/gauss-proto-clip)  
-- [📄 Full Report](/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf)  
+- [📄 Full Report]({{ "/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf" | relative_url }})  
 - [✉️ Email Me](mailto:akashpatel3@cmail.carleton.ca)  
-
----
 
 ---
 
