@@ -18,7 +18,6 @@
       {% include head-custom.html %}
     {% endif %}
 
-    <!-- Legacy IE shiv, if needed -->
     <!--[if lt IE 9]>
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
@@ -29,8 +28,8 @@
   <body>
     <div class="wrapper">
       {%- comment -%}
-      — we’ve removed the built-in <header> so your custom hero/sidebar in index.md
-      will be the *only* top section —
+      We’ve removed the built‐in <header> so *only* your page’s content
+      (i.e. what’s in index.md) shows at the top.
       {%- endcomment -%}
 
       <section>
