@@ -2,6 +2,26 @@
 layout: default
 title: Akash Patel
 ---
+# Akash Patel
+
+<p class="hero-tagline">
+  I build production-grade AI systems that scale, explain, and deliver impact.
+</p>
+
+<div class="hero-ctas">
+  <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
+  <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
+</div>
+
+<div class="skill-cloud">
+  <span class="badge">Python</span>
+  <span class="badge">PyTorch</span>
+  <span class="badge">NLP</span>
+  <span class="badge">Time Series</span>
+  <span class="badge">LLMs</span>
+  <span class="badge">Docker</span>
+  <span class="badge">Kubernetes</span>
+</div>
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
 
