@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Akash Patel
+head_custom: true
+
 ---
 # Akash Patel
 
