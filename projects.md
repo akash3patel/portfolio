@@ -166,7 +166,7 @@ Few-shot learning remains challenging when classes exhibit high intra‐class va
 - Benchmarked on 5 vision–language datasets  
 
 <figure>
-  <img src="{{ '/assets/images/gauss-proto-clip-architecture.png' | relative_url }}" alt="Architecture" />
+  <img src="{{ 'assets/images/gauss-proto-clip-architecture.png' | relative_url }}" alt="Architecture" />
   <figcaption>Figure: Gaussian vs. vanilla prototypes</figcaption>
 </figure>
 
