@@ -4,10 +4,9 @@ title: Akash Patel
 head_custom: true
 ---
 
-<div class="page-grid">
-
-  <!-- LEFT SIDEBAR -->
-  <aside class="sidebar">
+<div class="hero-wrapper">
+  <!-- Sidebar panel on the left -->
+  <div class="hero-sidebar">
     <h1>Akash Patel</h1>
     <p class="view">
       <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
@@ -18,8 +17,8 @@ head_custom: true
     </p>
 
     <div class="hero-ctas">
-      <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
-      <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
+      <a href="{{ '/Akash_Patel_Resume.pdf' | relative_url }}" class="btn">Download Resume</a>
+      <a href="{{ '/projects/' | relative_url }}" class="btn btn-outline">See Projects</a>
     </div>
 
     <div class="skill-cloud">
@@ -31,17 +30,16 @@ head_custom: true
       <span class="badge">Docker</span>
       <span class="badge">Kubernetes</span>
     </div>
-  </aside>
+  </div>
 
-  <!-- MAIN CONTENT -->
-  <main class="content">
-    <!-- your existing picture, title, education, etc. go here -->
-    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash Patel" class="profile-pic"/>
-    <!-- …and the rest of the homepage below… -->
-  </main>
-
+  <!-- Main content immediately to the right -->
+  <div class="hero-main">
+    <!-- your profile pic and intro (as before) -->
+    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash" class="profile-pic"/>
+    <p><strong>Data Scientist &amp; ML Engineer</strong><br>
+       Applied AI · Scalable Systems · Explainable ML · Time Series · NLP</p>
+  </div>
 </div>
-
 
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
