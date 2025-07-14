@@ -3,15 +3,30 @@ layout: default
 title: Akash Patel
 ---
 
-<div class="hero-wrapper">
-  <aside class="hero-sidebar">
+<div class="page-hero">
+  <!-- LEFT PANEL (hero/sidebar) -->
+  <aside class="hero-panel">
     <h1>Akash Patel</h1>
-    <p class="view"><a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a></p>
-    <p class="hero-tagline">I build production-grade AI systems that scale, explain, and deliver impact.</p>
+
+    <!-- photo -->
+    <img
+      src="{{ '/assets/images/profile.png' | relative_url }}"
+      alt="Akash Patel"
+      class="profile-pic"
+    />
+
+    <!-- GitHub link -->
+    <p class="view">
+      <a href="https://github.com/akash3patel/portfolio">View on GitHub</a>
+    </p>
+
+    <!-- CTAs -->
     <div class="hero-ctas">
       <a href="{{ '/Akash_Patel_Resume.pdf' | relative_url }}" class="btn">Download Resume</a>
       <a href="{{ '/projects/' | relative_url }}" class="btn btn-outline">See Projects</a>
     </div>
+
+    <!-- Skill badges -->
     <div class="skill-cloud">
       {% assign skills = "Python,PyTorch,NLP,Time Series,LLMs,Docker,Kubernetes" | split: "," %}
       {% for skill in skills %}
@@ -21,7 +36,7 @@ title: Akash Patel
   </aside>
 
   <main class="hero-main">
-    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash Patel" class="profile-pic">
+    <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Akash Patel" class="profile-pic">
     <h2>Data Scientist & ML Engineer</h2>
     <p>Applied AI · Scalable Systems · Explainable ML · Time Series · NLP</p>
   </main>
@@ -30,13 +45,8 @@ title: Akash Patel
 <!-- YOUR PAGE CONTENT CONTINUES BELOW -->
 
 
-
-<img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
-
 **Data Scientist & ML Engineer**  
 Applied AI • Scalable Systems • Explainable ML • Time Series • NLP
-
-[Download Resume](Akash_Patel_Resume.pdf){: .btn}
 
 ---
 
