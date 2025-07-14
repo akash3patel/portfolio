@@ -105,3 +105,42 @@ figure figcaption {
   color: #555;
   margin-top: 0.5rem;
 }
+.hero-tagline {
+  font-size: 1.25rem;
+  color: #334e68;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.hero-ctas {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.btn-outline {
+  background: transparent;
+  border: 2px solid #0063b1;
+  color: #0063b1 !important;
+}
+.btn-outline:hover {
+  background: #0063b1;
+  color: #fff !important;
+}
+
+.skill-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
