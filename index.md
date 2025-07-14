@@ -2,9 +2,7 @@
 layout: default
 title: Akash Patel
 head_custom: true
-
 ---
-# Akash Patel
 
 <div class="hero-sidebar">
   <h1>Akash Patel</h1>
@@ -12,7 +10,6 @@ head_custom: true
     <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
   </p>
 
-  <!-- THIS IS THE PANEL UNDER THE GITHUB LINK -->
   <p class="hero-tagline">
     I build production-grade AI systems that scale, explain, and deliver impact.
   </p>
