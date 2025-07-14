@@ -4,31 +4,44 @@ title: Akash Patel
 head_custom: true
 ---
 
-<div class="hero-sidebar">
-  <h1>Akash Patel</h1>
-  <p class="view">
-    <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
-  </p>
+<div class="page-grid">
 
-  <p class="hero-tagline">
-    I build production-grade AI systems that scale, explain, and deliver impact.
-  </p>
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+    <h1>Akash Patel</h1>
+    <p class="view">
+      <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
+    </p>
 
-  <div class="hero-ctas">
-    <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
-    <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
-  </div>
+    <p class="hero-tagline">
+      I build production-grade AI systems that scale, explain, and deliver impact.
+    </p>
 
-  <div class="skill-cloud">
-    <span class="badge">Python</span>
-    <span class="badge">PyTorch</span>
-    <span class="badge">NLP</span>
-    <span class="badge">Time Series</span>
-    <span class="badge">LLMs</span>
-    <span class="badge">Docker</span>
-    <span class="badge">Kubernetes</span>
-  </div>
+    <div class="hero-ctas">
+      <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
+      <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
+    </div>
+
+    <div class="skill-cloud">
+      <span class="badge">Python</span>
+      <span class="badge">PyTorch</span>
+      <span class="badge">NLP</span>
+      <span class="badge">Time Series</span>
+      <span class="badge">LLMs</span>
+      <span class="badge">Docker</span>
+      <span class="badge">Kubernetes</span>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <!-- your existing picture, title, education, etc. go here -->
+    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash Patel" class="profile-pic"/>
+    <!-- …and the rest of the homepage below… -->
+  </main>
+
 </div>
+
 
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
