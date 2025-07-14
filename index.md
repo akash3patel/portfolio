@@ -4,39 +4,33 @@ title: Akash Patel
 ---
 # Akash Patel
 
-<p class="hero-tagline">
-  I build production-grade AI systems that scale, explain, and deliver impact.
-</p>
+<div class="hero-sidebar">
+  <h1>Akash Patel</h1>
+  <p class="view">
+    <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
+  </p>
 
-<div class="hero-container">
-  <!-- Left column: Name + GitHub link -->
-  <div class="hero-left">
-    <h1>Akash Patel</h1>
-    <p class="view">
-      <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
-    </p>
+  <!-- THIS IS THE PANEL UNDER THE GITHUB LINK -->
+  <p class="hero-tagline">
+    I build production-grade AI systems that scale, explain, and deliver impact.
+  </p>
+
+  <div class="hero-ctas">
+    <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
+    <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
   </div>
 
-  <!-- Right column: Tagline, CTAs, Skill Cloud -->
-  <div class="hero-right">
-    <p class="hero-tagline">
-      I build production-grade AI systems that scale, explain, and deliver impact.
-    </p>
-    <div class="hero-ctas">
-      <a href="{{ "/Akash_Patel_Resume.pdf" | relative_url }}" class="btn">Download Resume</a>
-      <a href="{{ "/projects/" | relative_url }}" class="btn btn-outline">See Projects</a>
-    </div>
-    <div class="skill-cloud">
-      <span class="badge">Python</span>
-      <span class="badge">PyTorch</span>
-      <span class="badge">NLP</span>
-      <span class="badge">Time Series</span>
-      <span class="badge">LLMs</span>
-      <span class="badge">Docker</span>
-      <span class="badge">Kubernetes</span>
-    </div>
+  <div class="skill-cloud">
+    <span class="badge">Python</span>
+    <span class="badge">PyTorch</span>
+    <span class="badge">NLP</span>
+    <span class="badge">Time Series</span>
+    <span class="badge">LLMs</span>
+    <span class="badge">Docker</span>
+    <span class="badge">Kubernetes</span>
   </div>
 </div>
+
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
 
