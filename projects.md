@@ -147,6 +147,45 @@ Integrated CosFace into Proto-CLIP achieving robust 4-shot/8-shot performance.
 ![Few-shot accuracy](/assets/images/cosface-clip.png)  
 *Figure: Few-shot classification accuracy*
 
+
+### Gauss-Proto-CLIP: Enhancing Few-Shot Learning {#gauss-proto-clip}
+[📄 Paper (PDF)](/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf) · [💻 Code](https://github.com/your-username/gauss-proto-clip)
+
+**Tech:** PyTorch · CLIP · NumPy · W&B  
+**Data:** EuroSAT · DTD · Flowers · Pets · UCF101  
+
+**🔎 Overview**  
+Few-shot learning remains challenging when classes exhibit high intra-class variance. While Proto-CLIP uses single-point prototypes, our Gauss-Proto-CLIP models each class as a Gaussian (mean + covariance), enabling richer representations and superior fine-grained performance.
+
+**🚀 Key Contributions**  
+- Gaussian prototypes for image embeddings  
+- Mahalanobis & Euclidean distance fusion  
+- Prototype alignment via InfoNCE loss  
+- Benchmarked on 5 vision–language datasets  
+
+<figure>
+  <img src="/assets/images/gauss-proto-clip-architecture.png" alt="Architecture" />
+  <figcaption>Figure: Gaussian vs. vanilla prototypes</figcaption>
+</figure>
+
+| Dataset | 4-shot Acc. (%) |
+| ------- | --------------- |
+| EuroSAT | 74.93           |
+| Flowers | 89.08           |
+| …       | …               |
+
+**🔧 What I Learned**  
+– Probabilistic prototype modeling  
+– Distance-based metric learning  
+– Scalable experiment tracking with W&B  
+
+**👉 Try It Yourself**  
+- [📂 Code & Demo](https://github.com/your-username/gauss-proto-clip)  
+- [📄 Full Report](/assets/papers/COMP5801_Paper_Project_Akash_Patel.pdf)  
+- [✉️ Email Me](mailto:akashpatel3@cmail.carleton.ca)  
+
+---
+
 ---
 
 [← Back to Home]({{ "/" | relative_url }}){: .btn }
