@@ -1,14 +1,36 @@
+# Site settings
 title: Akash Patel
-logo: 
-#description: text below image
-show_downloads: false
+logo: ""                # optional: path to a logo image in /assets/images
+description: ""         # optional: tagline under your logo
 theme: jekyll-theme-minimal
-# below your existing plugins/themes
-baseurl: "/portfolio"
+
+# GitHub Pages settings
+repository: akash3patel/portfolio
+baseurl: "/portfolio"   # all relative URLs will be prefixed with /portfolio
+url: "https://akash3patel.github.io"
+
+# Disable the built-in “download” UI
+show_downloads: false
+
+# Plugins (if you add any)
+plugins:
+  - jekyll-seo-tag
+
+# Always include head-custom.html
 defaults:
   -
     scope:
-      path: ""
+      path: ""     # all files
       type: "pages"
     values:
       head_custom: true
+
+# Exclude files/folders from the build (optional)
+exclude:
+  - node_modules
+  - README.md
+  - try.zip
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
