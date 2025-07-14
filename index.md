@@ -1,45 +1,34 @@
 ---
 layout: default
 title: Akash Patel
-head_custom: true
 ---
 
 <div class="hero-wrapper">
-  <!-- Sidebar panel on the left -->
-  <div class="hero-sidebar">
+  <aside class="hero-sidebar">
     <h1>Akash Patel</h1>
-    <p class="view">
-      <a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a>
-    </p>
-
-    <p class="hero-tagline">
-      I build production-grade AI systems that scale, explain, and deliver impact.
-    </p>
-
+    <p class="view"><a href="https://github.com/akash3patel/portfolio">View the Project on GitHub</a></p>
+    <p class="hero-tagline">I build production-grade AI systems that scale, explain, and deliver impact.</p>
     <div class="hero-ctas">
       <a href="{{ '/Akash_Patel_Resume.pdf' | relative_url }}" class="btn">Download Resume</a>
       <a href="{{ '/projects/' | relative_url }}" class="btn btn-outline">See Projects</a>
     </div>
-
     <div class="skill-cloud">
-      <span class="badge">Python</span>
-      <span class="badge">PyTorch</span>
-      <span class="badge">NLP</span>
-      <span class="badge">Time Series</span>
-      <span class="badge">LLMs</span>
-      <span class="badge">Docker</span>
-      <span class="badge">Kubernetes</span>
+      {% assign skills = "Python,PyTorch,NLP,Time Series,LLMs,Docker,Kubernetes" | split: "," %}
+      {% for skill in skills %}
+        <span class="badge">{{ skill }}</span>
+      {% endfor %}
     </div>
-  </div>
+  </aside>
 
-  <!-- Main content immediately to the right -->
-  <div class="hero-main">
-    <!-- your profile pic and intro (as before) -->
-    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash" class="profile-pic"/>
-    <p><strong>Data Scientist &amp; ML Engineer</strong><br>
-       Applied AI · Scalable Systems · Explainable ML · Time Series · NLP</p>
-  </div>
+  <main class="hero-main">
+    <img src="{{ '/assets/images/your-photo.png' | relative_url }}" alt="Akash Patel" class="profile-pic">
+    <h2>Data Scientist & ML Engineer</h2>
+    <p>Applied AI · Scalable Systems · Explainable ML · Time Series · NLP</p>
+  </main>
 </div>
+
+<!-- YOUR PAGE CONTENT CONTINUES BELOW -->
+
 
 
 <img src="profile.jpg" alt="Akash Patel" style="width:150px; border-radius:50%; margin-bottom: 1rem;">
